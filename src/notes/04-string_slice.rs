@@ -93,8 +93,4 @@ fn about_operate_str(){
     for c in "中国".chars() {
         println!("{}", c);
     }
-
-
-
-
 }
