@@ -4,7 +4,6 @@ fn main(){
     let result = longest(&x, &y);
     println!("The longest string is {}", result);
 }
-
 /**
  * 一个变量在创建时生命周期随之开始，销毁时生命周期也随之结束。
  * 在存在多个引用时，编译器有时会无法自动推导生命周期，无法得知返回的是哪个引用。

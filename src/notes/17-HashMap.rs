@@ -1,5 +1,4 @@
 use std::collections::HashMap;
-
 /**
  * HashMap key 的限制：任何实现了 Eq 和 Hash 特征的类型都可以作为 key
  * 包括 bool（基本不用，因为只有两种值）
